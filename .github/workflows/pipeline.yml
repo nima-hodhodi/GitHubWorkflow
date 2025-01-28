@@ -10,7 +10,7 @@ jobs:
     runs-on: self-hosted 
     steps:
       - name: Pull latest changes
-        working-directory: /home/nima  
+        working-directory: /home/ubuntu  
         run: |
           touch Hello
           cat Github > Hello
