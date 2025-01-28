@@ -12,5 +12,6 @@ jobs:
       - name: Pull latest changes
         working-directory: /home/ubuntu  
         run: |
-          touch Hello
-          cat Github > Hello
+          touch Hello2
+          rm Hello
+          
