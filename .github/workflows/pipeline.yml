@@ -1,0 +1,16 @@
+name: Deploy on Main Merge
+
+on:
+  push:
+    branches:
+      - main
+      
+jobs:
+  deploy:
+    runs-on: self-hosted 
+    steps:
+      - name: Pull latest changes
+        working-directory: /home/nima  
+        run: |
+          touch Hello
+          cat Github > Hello
