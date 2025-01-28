@@ -9,9 +9,9 @@ jobs:
   deploy:
     runs-on: self-hosted 
     steps:
-      - name: Pull latest changes
+      - name: Create File
         working-directory: /home/ubuntu  
         run: |
-          touch Hello2
-          rm Hello
+          touch Hello3
+          rm Hello2
           
